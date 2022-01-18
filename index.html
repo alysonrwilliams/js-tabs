@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs Project</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>about</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed 
+          corporis officia voluptate aliquam consequatur vero!</p>
+      </div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./hero-bcg.jpeg" alt="about picture">
+        </article>
+        <article class="about">
+          <!--btn container-->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">history</button>
+            <button class="tab-btn" data-id="vision">vision</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+          </div>
+          <article class="about-content">
+            <!--single item-->
+            <div class="content active" id="history">
+              <h4>history</h4>
+              <!--history-->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Atque pariatur eos odio quisquam, dolores provident placeat 
+                fuga ipsum iure tenetur. Deleniti aliquid, delectus id eum 
+                eos dolorum dignissimos obcaecati veritatis non vitae 
+                assumenda velit magni voluptate distinctio deserunt ad 
+                commodi cupiditate repellat architecto quas. Nulla qui 
+                nobis cumque quis ab!</p>
+            </div>
+            <!--end of single item-->
+            <!--single item-->
+            <div class="content" id="vision">
+              <h4>vision</h4>
+              <!--vision-->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Sunt doloremque facere possimus iure nemo illo 
+                voluptatem recusandae itaque provident optio animi 
+                distinctio, officiis inventore cum, magni fuga error. 
+                Aliquam distinctio voluptatibus ipsa iste aspernatur? 
+                Consequatur, consectetur blanditiis incidunt est 
+                officiis dolor impedit expedita culpa corporis fuga 
+                soluta sunt dolorem voluptatum obcaecati voluptatibus. 
+                Eaque, facilis asperiores!</p>
+                <ul>
+                  <li>list item</li>
+                  <li>list item</li>
+                  <li>list item</li>
+                </ul>
+            </div>
+            <!--end of single item-->
+            <!--single item-->
+            <div class="content" id="goals">
+              <h4>goals</h4>
+              <!--goals-->
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Esse, laborum aspernatur similique perferendis 
+                accusantium ratione, atque quidem animi maiores cumque 
+                debitis officia nulla excepturi enim.</p>
+            </div>
+            <!--end of single item-->
+          </article>
+        </article>
+        
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
